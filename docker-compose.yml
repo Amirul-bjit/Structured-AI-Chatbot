@@ -1,0 +1,7 @@
+services:
+  chatbot:
+    build: .
+    env_file:
+      - .env
+    stdin_open: true # docker run -i (needed for the `input()` prompt)
+    tty: true # docker run -t
