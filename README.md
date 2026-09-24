@@ -4,6 +4,8 @@ A minimal, beginner-friendly command-line chatbot that demonstrates how to
 combine an LLM API with **Pydantic** to get reliable, structured responses
 instead of raw, unpredictable text.
 
+![Chatbot running in the terminal via Docker Compose](image.png)
+
 ## What this project does
 
 You type a message, it's sent to an LLM (DeepSeek), and instead of getting
